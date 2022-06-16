@@ -23,7 +23,7 @@ h1 {
 h2 {
   color: #354259;
   font-family: 'Libre Baskerville', serif;
-  font-size: 2rem;
+
   font-weight: normal;
   margin-top: 0;
 }
@@ -63,7 +63,7 @@ h2 {
 
 .skill-row{
   width: 50rem;
-  margin: 100px auto;
+  margin: 50px auto 0 auto;
   text-align: left;
 line-height: 2;
 }
@@ -74,23 +74,37 @@ line-height: 2;
    margin-bottom: 3rem;
  }
 
- .btn{
-   border: 1px;
-   border-radius: 28px;
-   background-color: #354259;
-   color: white;
-   padding: 10px;
-   margin: 10rem;
- }
+ .btn {
+  background: #44667a;
+  background-image: -webkit-linear-gradient(top, #44667a, #6e9eb8);
+  background-image: -moz-linear-gradient(top, #44667a, #6e9eb8);
+  background-image: -ms-linear-gradient(top, #44667a, #6e9eb8);
+  background-image: -o-linear-gradient(top, #44667a, #6e9eb8);
+  background-image: linear-gradient(to bottom, #44667a, #6e9eb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 
- .btn:hover{
-   border: 1px;
-   border-radius: 28px;
-   background-color:white ;
-   color: #354259;
-    padding: 10px;
- }
+}
 
+.btn:hover {
+  background: #143d57;
+  background-image: -webkit-linear-gradient(top, #143d57, #153245);
+  background-image: -moz-linear-gradient(top, #143d57, #153245);
+  background-image: -ms-linear-gradient(top, #143d57, #153245);
+  background-image: -o-linear-gradient(top, #143d57, #153245);
+  background-image: linear-gradient(to bottom, #143d57, #153245);
+  color: #ffffff;
+  text-decoration: none;
+}
  .bottom-container{
    background-color: #839AA8;
    position: relative;
@@ -102,8 +116,9 @@ line-height: 2;
  .copyright{
    margin-bottom: 0;
    position: relative;
-   top: 70px;
+   top: 90px;
    color:#FAF5E4;
+   font-size: 0.75rem;
 
  }
 
@@ -117,7 +132,9 @@ top: 27px;
 margin-left: 20px;
 right:7px;
 text-decoration: none;
-
+}
+a:hover{
+  color: #143d57;
 }
 hr{
   border: none;
@@ -125,4 +142,8 @@ hr{
   width: 5%;
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+p
+{
+line-height: 2;
 }
