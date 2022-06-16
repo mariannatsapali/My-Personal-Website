@@ -1,0 +1,128 @@
+.top-container {
+  background-color: #839AA8;
+  padding-top: 100px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  color: #354259;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 4rem;
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #354259;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-header {
+  font-family: 'Sacramento', cursive;
+  color: #354259;
+  font-size: 5.5rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.web-design-icon {
+
+  width: 20%;
+  float:left;
+  margin-right: 30px;
+}
+
+.documentation-icon {
+
+  width: 20%;
+  float:right;
+    margin-left: 30px;
+}
+
+.skill-row{
+  width: 50rem;
+  margin: 100px auto;
+  text-align: left;
+line-height: 2;
+}
+
+ .marianna-img{
+   width:15%;
+   margin-top: 5rem;
+   margin-bottom: 3rem;
+ }
+
+ .btn{
+   border: 1px;
+   border-radius: 28px;
+   background-color: #354259;
+   color: white;
+   padding: 10px;
+   margin: 10rem;
+ }
+
+ .btn:hover{
+   border: 1px;
+   border-radius: 28px;
+   background-color:white ;
+   color: #354259;
+    padding: 10px;
+ }
+
+ .bottom-container{
+   background-color: #839AA8;
+   position: relative;
+   bottom: 0;
+   margin-top: 5rem;
+   height:  10rem;
+ }
+
+ .copyright{
+   margin-bottom: 0;
+   position: relative;
+   top: 70px;
+   color:#FAF5E4;
+
+ }
+
+h3{
+  color: #5F7161;
+}
+a{
+  color: #FAF5E4;
+position: relative;
+top: 27px;
+margin-left: 20px;
+right:7px;
+text-decoration: none;
+
+}
+hr{
+  border: none;
+  border-top: 5px dotted #73777B;
+  width: 5%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
