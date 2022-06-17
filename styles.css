@@ -25,7 +25,6 @@ h2 {
   font-family: 'Libre Baskerville', serif;
 
   font-weight: normal;
-  margin-top: 0;
 }
 
 .bottom-cloud {
@@ -84,9 +83,9 @@ line-height: 2;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  -webkit-box-shadow: 0px 1px 3px #666666;
-  -moz-box-shadow: 0px 1px 3px #666666;
-  box-shadow: 0px 1px 3px #666666;
+  -webkit-box-shadow: 0 1px 3px #666666;
+  -moz-box-shadow: 0 1px 3px #666666;
+  box-shadow: 0 1px 3px #666666;
   font-family: 'Lato', sans-serif;
   color: #ffffff;
   font-size: 16px;
@@ -140,10 +139,15 @@ hr{
   border: none;
   border-top: 5px dotted #73777B;
   width: 5%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 7.8rem;
+  margin-bottom: 7.8rem;
 }
 p
 {
 line-height: 2;
+}
+
+.middle-container{
+  height:1263.330px;
+  width:inherit;
 }
